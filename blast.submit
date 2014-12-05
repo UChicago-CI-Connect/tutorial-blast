@@ -1,0 +1,16 @@
+Universe = grid
+grid_resource = batch condor dbala@login.ci-connect.uchicago.edu
+ 
+executable = blast_wrapper.sh
+ 
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = query1
+ 
+output = job.out
+error = job.err
+log = job.log
+ 
++ProjectName = "ConnectTrain"
+ 
+queue
