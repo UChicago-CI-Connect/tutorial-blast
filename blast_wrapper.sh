@@ -1,6 +1,5 @@
 #!/bin/bash
-  source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
-  module load blast
+module load blast
  
 wget http://stash.osgconnect.net/+dbala/blast/yeast.aa
 wget http://stash.osgconnect.net/+dbala/blast/yeast.aa.phr
